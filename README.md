@@ -33,7 +33,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | Komiku | 🟢 | /komiku | 6 | Manga, Manhua, Manhwa |
 | Doujindesu | 🟢 | /doujindesu | 11 | Manga, Manhwa, Manhua, Eroge |
 | Dojing | 🟢 | /adultcomic_v1 | 8 | Comic, Eroge, Manga |
-| KomikDewasa | 🟢 | /adultcomic_v2 | 1 | Baca Kitab Suci |
+| KomikDewasa | 🟢 | /adultcomic_v2 | 9 | Baca Kitab Suci |
 
 ---
 
@@ -79,6 +79,11 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 ## 📄 Changelog
 
 ```
+<> [2026-02-05]
+- 🔄 Adjust  : Proxy Rotate Handlers 
+- 🆕 New     : AdultComic V2 [Complete Endpoint]
+- ℹ️ Info    : AdultComic V2 `Status Stable` (Read DOCS)
+
 <> [2026-02-04]
 - 🔄 Adjust  : Proxy Rotate Handlers 
 - 🆕 New     : AdultComic V2 [adultcomic_v2/home]
