@@ -34,6 +34,8 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | Doujindesu | 🟢 | /doujindesu | 11 | Manga, Manhwa, Manhua, Eroge |
 | Dojing | 🟢 | /adultcomic_v1 | 8 | Comic, Eroge, Manga |
 | KomikDewasa | 🟢 | /adultcomic_v2 | 9 | Baca Kitab Suci |
+| PixHentai | 🟢 | /adultcomic_v3 | 7 | Baca Kitab Suci |
+| AnimeKompi | 🟢 | /animekompi | 25 | Anime |
 
 ---
 
@@ -78,20 +80,53 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 
 ## 📄 Changelog
 
-```
-<> [2026-02-05]
-- 🔄 Adjust  : Proxy Rotate Handlers 
-- 🆕 New     : AdultComic V2 [Complete Endpoint]
-- ℹ️ Info    : AdultComic V2 `Status Stable` (Read DOCS)
-
-<> [2026-02-04]
-- 🔄 Adjust  : Proxy Rotate Handlers 
-- 🆕 New     : AdultComic V2 [adultcomic_v2/home]
-
-<> [2026-02-01]
-- 🆙 Version : v2.3.0
-- 🔣 Fix     : Reverse Proxy Image > Oploverz & Komiku
-- 🆕 New     : AdultComic V1 [Complete Endpoint]
+```json
+changelogs = [
+    {
+        "date": "2026-02-07",
+        "changes": [
+            "New: Platform AnimeKompi [Complete Endpoint]",
+            "New: Platform AdultComic V3 [Complete Endpoint]",
+            "Adjust: Views layout for better mobile responsiveness",
+            "Fix: Nekopoi search parsing error on page 2",
+            "Add: Rate Limit headers (X-RateLimit-Limit, X-RateLimit-Remaining)"
+        ]
+    },
+    {
+        "date": "2026-02-06", 
+        "changes": [
+            "Fix: Anoboy search pagination loop",
+            "Add: Endpoint /detail on Oploverz",
+            "Adjust: Cloudscraper timeout increased to 15s",
+            "Remove: Legacy Komiku parser logic"
+        ]
+    },
+    {
+        "date": "2026-02-05", 
+        "changes": [
+            "New: AdultComic V2 [Complete Endpoint]",
+            "Fix: Anoboy search pagination loop",
+            "Add: Endpoint /detail on Oploverz",
+            "Adjust: Proxy Rotate Handlers",
+            "Remove: Legacy Komiku parser logic",
+            "Optimize: AdultComic V2 [Complete Endpoint]"
+        ]
+    },
+    {
+        "date": "2026-02-04", 
+        "changes": [
+            "Adjust: Proxy Rotate Handlers",
+            "New: AdultComic V2 [adultcomic_v2/home]"
+        ]
+    },
+    {
+        "date": "2026-02-01", 
+        "changes": [
+            "Fix: Reverse Proxy Image > Oploverz & Komiku",
+            "New: AdultComic V1 [Complete Endpoint]"
+        ]
+    }
+]
 ```
 
 ---
