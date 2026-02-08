@@ -36,6 +36,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | KomikDewasa | 🟢 | /adultcomic_v2 | 9 | Baca Kitab Suci |
 | PixHentai | 🟢 | /adultcomic_v3 | 7 | Baca Kitab Suci |
 | AnimeKompi | 🟢 | /animekompi | 25 | Anime |
+| AniChin | 🟢 | /anichin | 22 | Donghua |
 
 ---
 
@@ -82,6 +83,12 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 
 ```json
 changelogs = [
+    {
+        "date": "2026-02-08",
+        "changes": [
+            "New: Platform Anichin [Complete Endpoint]"
+        ]
+    },
     {
         "date": "2026-02-07",
         "changes": [
