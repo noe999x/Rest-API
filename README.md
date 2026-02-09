@@ -37,8 +37,8 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | PixHentai | 🟢 | /adultcomic_v3 | 7 | Baca Kitab Suci |
 | AnimeKompi | 🟢 | /animekompi | 25 | Anime |
 | AniChin | 🟢 | /anichin | 22 | Donghua |
-| MangaKita | 🟢 | /mangakita | 11 | Comic |
-
+| MangaKita | 🟢 | /mangakita | 12 | Comic |
+| CrotPedia | 🟢 | /crotpedia | 11 | Baca Kitab Suci |
 ---
 
 ## 🔥 Features
