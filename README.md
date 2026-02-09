@@ -37,6 +37,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | PixHentai | 🟢 | /adultcomic_v3 | 7 | Baca Kitab Suci |
 | AnimeKompi | 🟢 | /animekompi | 25 | Anime |
 | AniChin | 🟢 | /anichin | 22 | Donghua |
+| MangaKita | 🟢 | /mangakita | 11 | Comic |
 
 ---
 
@@ -84,9 +85,18 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 ```json
 changelogs = [
     {
+        "date": "2026-02-09",
+        "changes": [
+            "New: Platform MangaKita [Complete Endpoint]",
+            "New: Platform CrotPedia [Complete Endpoint]",
+            "Fix: CrotPedia Parse Error",
+            "Adjust: CrotPedia Parsing Method"
+        ]
+    },
+    {
         "date": "2026-02-08",
         "changes": [
-            "New: Platform Anichin [Complete Endpoint]"
+            "New: Platform AniChin [Complete Endpoint]"
         ]
     },
     {
@@ -132,7 +142,7 @@ changelogs = [
             "Fix: Reverse Proxy Image > Oploverz & Komiku",
             "New: AdultComic V1 [Complete Endpoint]"
         ]
-    }
+    },
 ]
 ```
 
