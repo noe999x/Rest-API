@@ -39,6 +39,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | AniChin | 🟢 | /anichin | 22 | Donghua |
 | MangaKita | 🟢 | /mangakita | 12 | Comic |
 | CrotPedia | 🟢 | /crotpedia | 11 | Baca Kitab Suci |
+| KomikIndo | 🟢 | /komikindo | 20 | Comic |
 ---
 
 ## 🔥 Features
@@ -84,6 +85,14 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 
 ```json
 changelogs = [
+    {
+        "date": "2026-02-10",
+        "changes": [
+            "New: Platform KomikIndo [Complete Endpoint]",
+            "Adjust: KomikIndo Parser Logic",
+            "Add: KomikIndo External Image Proxy"
+        ]
+    },
     {
         "date": "2026-02-09",
         "changes": [
