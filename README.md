@@ -24,7 +24,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | Platform | Status | Route | Endpoint | Info |
 | :--- | :---: | :--- | :--- | :--- |
 | Oploverz | 🟢 | /oploverz | 10 | Anime |
-| Samehadaku | 🟢 | /samehadaku | 8 | Anime |
+| Samehadaku | 🟢 | /samehadaku | 15 | Anime |
 | Kusonime | 🟢 | /kusonime | 11 | Anime |
 | Anoboy | 🟢 | /anoboy | 10 | Anime |
 | LayarAnime | 🔴 | /layaranime | 20 | Anime |
@@ -89,7 +89,8 @@ changelogs = [
     {
         "date": "2026-02-11",
         "changes": [
-            "New: Platform ShiroDoujin [Complete Endpoint]"
+            "New: Platform ShiroDoujin [Complete Endpoint]",
+            "New: Platform Samehadaku [Complete Endpoint] Robust Version!",
         ]
     },
     {
