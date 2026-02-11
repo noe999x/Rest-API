@@ -40,6 +40,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | MangaKita | 🟢 | /mangakita | 12 | Comic |
 | CrotPedia | 🟢 | /crotpedia | 11 | Baca Kitab Suci |
 | KomikIndo | 🟢 | /komikindo | 20 | Comic |
+| ShiroDoujin | 🟢 | /shirodoujin | 18 | Manhwa, Manga, Doujinshi |
 ---
 
 ## 🔥 Features
@@ -86,11 +87,19 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 ```json
 changelogs = [
     {
+        "date": "2026-02-11",
+        "changes": [
+            "New: Platform ShiroDoujin [Complete Endpoint]"
+        ]
+    },
+    {
         "date": "2026-02-10",
         "changes": [
             "New: Platform KomikIndo [Complete Endpoint]",
             "Adjust: KomikIndo Parser Logic",
-            "Add: KomikIndo External Image Proxy"
+            "Fix: Komikindo [/project]",
+            "Add: KomikIndo External Image Proxy",
+            "Add: Margin News Letter"
         ]
     },
     {
