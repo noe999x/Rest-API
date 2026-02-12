@@ -30,7 +30,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | LayarAnime | 🔴 | /layaranime | 20 | Anime |
 | NimeGami | 🟢 | /nimegami | 11 | Anime |
 | Nekopoi | 🟢 | /nekopoi | 13 | H-Nime, JAV, 2D, 3D, Cosplay |
-| Komiku | 🟢 | /komiku | 6 | Manga, Manhua, Manhwa |
+| Komiku | 🟢 | /komiku | 11 | Manga, Manhua, Manhwa |
 | Doujindesu | 🟢 | /doujindesu | 11 | Manga, Manhwa, Manhua, Eroge |
 | Dojing | 🟢 | /adultcomic_v1 | 8 | Comic, Eroge, Manga |
 | KomikDewasa | 🟢 | /adultcomic_v2 | 9 | Baca Kitab Suci |
@@ -93,7 +93,11 @@ changelogs = [
         "changes": [
             "New: Platform KomikKita [Complete Endpoint]",
             "Add: KomikKita Image Proxy (BunnyCDN & WP)",
-            "Fix: Global Image Proxy consistency"
+            "Fix: Global Image Proxy consistency",
+            "Update: Platform Komiku [5 New Endpoints]",
+            "Add: Komiku Random, Latest, New, Popular, and Genre Detail",
+            "Fix: Komiku [/read]",
+            "Fix: Komiku Parser item mapping (Title, Thumb, Info, Chapters, Type, Genre, Synopsis)"
         ]
     },
     {
