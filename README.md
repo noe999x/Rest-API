@@ -24,7 +24,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | Platform | Status | Route | Endpoint | Info |
 | :--- | :---: | :--- | :--- | :--- |
 | Oploverz | 🟢 | /oploverz | 10 | Anime |
-| Samehadaku | 🟢 | /samehadaku | 15 | Anime |
+| Samehadaku | 🟢 | /samehadaku | 16 | Anime |
 | Kusonime | 🟢 | /kusonime | 11 | Anime |
 | Anoboy | 🟢 | /anoboy | 10 | Anime |
 | LayarAnime | 🔴 | /layaranime | 20 | Anime |
@@ -101,7 +101,9 @@ changelogs = [
             "Fix: Komiku Parser item mapping (Title, Thumb, Info, Chapters, Type, Genre, Synopsis)",
             "New: Platform AnimeBagus [Complete Endpoint]",
             "Add: AnimeBagus Parallel Episode Fragment Fetching",
-            "Add: AnimeBagus Path-based slug for Watch endpoint consistency"
+            "Add: AnimeBagus Path-based slug for Watch endpoint consistency",
+            "Add: Samehadaku [/schedule]",
+            "Fix: AnimeBagus [/watch]"
         ]
     },
     {
