@@ -41,7 +41,8 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | CrotPedia | 🟢 | /crotpedia | 11 | Baca Kitab Suci |
 | KomikIndo | 🟢 | /komikindo | 20 | Comic |
 | ShiroDoujin | 🟢 | /shirodoujin | 18 | Manhwa, Manga, Doujinshi |
-| KomikKita| 🟢 | /komikkita | 18 | Manhwa, Manga, Manhua |
+| KomikKita | 🟢 | /komikkita | 18 | Manhwa, Manga, Manhua |
+| AnimeBagus | 🟢 | /animebagus | 12 | Anime, Donghua |
 
 ---
 
@@ -97,7 +98,10 @@ changelogs = [
             "Update: Platform Komiku [5 New Endpoints]",
             "Add: Komiku Random, Latest, New, Popular, and Genre Detail",
             "Fix: Komiku [/read]",
-            "Fix: Komiku Parser item mapping (Title, Thumb, Info, Chapters, Type, Genre, Synopsis)"
+            "Fix: Komiku Parser item mapping (Title, Thumb, Info, Chapters, Type, Genre, Synopsis)",
+            "New: Platform AnimeBagus [Complete Endpoint]",
+            "Add: AnimeBagus Parallel Episode Fragment Fetching",
+            "Add: AnimeBagus Path-based slug for Watch endpoint consistency"
         ]
     },
     {
