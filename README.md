@@ -36,13 +36,14 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | KomikDewasa | 🟢 | /adultcomic_v2 | 9 | Baca Kitab Suci |
 | PixHentai | 🟢 | /adultcomic_v3 | 7 | Baca Kitab Suci |
 | AnimeKompi | 🟢 | /animekompi | 25 | Anime |
-| AniChin | 🟢 | /anichin | 22 | Donghua |
+| AniChin | 🟢 | /anichin | 26 | Donghua |
 | MangaKita | 🟢 | /mangakita | 12 | Comic |
 | CrotPedia | 🟢 | /crotpedia | 11 | Baca Kitab Suci |
 | KomikIndo | 🟢 | /komikindo | 20 | Comic |
 | ShiroDoujin | 🟢 | /shirodoujin | 18 | Manhwa, Manga, Doujinshi |
 | KomikKita | 🟢 | /komikkita | 18 | Manhwa, Manga, Manhua |
 | AnimeBagus | 🟢 | /animebagus | 12 | Anime, Donghua |
+| DonghuaFilm | 🟢 | /donghuafilm | 25 | Donghua |
 
 ---
 
@@ -89,6 +90,15 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 
 ```json
 changelogs = [
+    {
+        "date": "2026-02-13",
+        "changes": [
+            "New: Platform DonghuaFilm [Complete Endpoint]",
+            "Adjust: Global Proxy Rotate",
+            "Add: Anichin [/latest, /popular, /rating, /movie] endpoints",
+            "Update: Platforms Data for AniChin"
+        ]
+    },
     {
         "date": "2026-02-12",
         "changes": [
