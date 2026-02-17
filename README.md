@@ -27,7 +27,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | Samehadaku | 🟢 | /samehadaku | 16 | Anime |
 | Kusonime | 🟢 | /kusonime | 11 | Anime |
 | Anoboy | 🟢 | /anoboy | 10 | Anime |
-| LayarAnime | 🔴 | /layaranime | 20 | Anime |
+| LayarAnime | 🔴 | - | - | - |
 | NimeGami | 🟢 | /nimegami | 11 | Anime |
 | Nekopoi | 🟢 | /nekopoi | 13 | H-Nime, JAV, 2D, 3D, Cosplay |
 | Komiku | 🟢 | /komiku | 11 | Manga, Manhua, Manhwa |
@@ -38,11 +38,11 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | AnimeKompi | 🟢 | /animekompi | 25 | Anime |
 | AniChin | 🟢 | /anichin | 26 | Donghua |
 | MangaKita | 🟢 | /mangakita | 12 | Comic |
-| CrotPedia | 🟢 | /crotpedia | 11 | Baca Kitab Suci |
+| CrotPedia | 🔴 | - | - | - |
 | KomikIndo | 🟢 | /komikindo | 20 | Comic |
 | ShiroDoujin | 🟢 | /shirodoujin | 18 | Manhwa, Manga, Doujinshi |
 | KomikKita | 🟢 | /komikkita | 18 | Manhwa, Manga, Manhua |
-| AnimeBagus | 🟢 | /animebagus | 12 | Anime, Donghua |
+| AnimeBagus | 🔴 | - | - | - |
 | DonghuaFilm | 🟢 | /donghuafilm | 25 | Donghua |
 
 ---
@@ -90,6 +90,13 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 
 ```json
 changelogs = [
+    {
+        "date": "2026-02-18",
+        "changes": [
+            "Remove: AnimeBagus, CrotPedia, LayarAnime",
+            "Update: UI/UX Enchanted!"
+        ]
+    },
     {
         "date": "2026-02-13",
         "changes": [
