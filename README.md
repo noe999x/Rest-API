@@ -23,7 +23,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 
 | Platform | Status | Route | Endpoint | Info |
 | :--- | :---: | :--- | :--- | :--- |
-| Oploverz | 🟢 | /oploverz | 10 | Anime |
+| Oploverz | 🟢 | /oploverz | 26 | Anime |
 | Samehadaku | 🟢 | /samehadaku | 16 | Anime |
 | Kusonime | 🟢 | /kusonime | 11 | Anime |
 | Anoboy | 🟢 | /anoboy | 10 | Anime |
@@ -90,6 +90,14 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 
 ```json
 changelogs = [
+    {
+        "date": "2026-02-19",
+        "changes": [
+            "Update: Oploverz",
+            "Add: New Endpoint [/popular-today, /recommendation, /latest, /ongoing, /completed, /upcoming, /popular, /rating, /movie, /list-genre, /list-studio, /list-season, /genre/{genre}, /studio/{studio}, /season/{season}, /cast/{cast}, /director/{director}]",
+            "Remove: [/home]"
+        ]
+    },
     {
         "date": "2026-02-18",
         "changes": [
