@@ -26,7 +26,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | Oploverz | 🟢 | /oploverz | 26 | Anime |
 | Samehadaku | 🟢 | /samehadaku | 16 | Anime |
 | Kusonime | 🟢 | /kusonime | 11 | Anime |
-| Anoboy | 🟢 | /anoboy | 10 | Anime |
+| Anoboy | 🟢 | /anoboy | 29 | Anime |
 | LayarAnime | 🔴 | - | - | - |
 | NimeGami | 🟢 | /nimegami | 11 | Anime |
 | Nekopoi | 🟢 | /nekopoi | 13 | H-Nime, JAV, 2D, 3D, Cosplay |
@@ -91,6 +91,13 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 ```json
 changelogs = [
     {
+        "date": "2026-02-22",
+        "changes": [
+            "Update: Anoboy",
+            "Add: New Endpoint [/update, /latest, /popular, /rating, /ongoing, /completed, /upcoming, /movie, /recommendation, /season-list, /studio-list, /top-weekly, /top-monthly, /top-alltime, /director/{director}, /studio/{studio}, /producer/{producer}, /cast/{cast}, /season/{season}]"
+        ]
+    },
+    {
         "date": "2026-02-19",
         "changes": [
             "Update: Oploverz",
@@ -135,7 +142,7 @@ changelogs = [
         "date": "2026-02-11",
         "changes": [
             "New: Platform ShiroDoujin [Complete Endpoint]",
-            "New: Platform Samehadaku [Complete Endpoint] Robust Version!",
+            "New: Platform Samehadaku [Complete Endpoint] Robust Version!"
         ]
     },
     {
