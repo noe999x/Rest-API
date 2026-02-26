@@ -44,6 +44,9 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | KomikKita | 🟢 | /komikkita | 18 | Manhwa, Manga, Manhua |
 | AnimeBagus | 🔴 | - | - | - |
 | DonghuaFilm | 🟢 | /donghuafilm | 25 | Donghua |
+| MiHentai | 🟢 | /mihentai | 13 | Baca Kitab Suci |
+| Natsu | 🟢 | /natsu | 28 | Comic |
+| Sasangeyou | 🟢 | /sasangeyou | 29 | Baca Kitab Suci|
 
 ---
 
@@ -90,6 +93,15 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 
 ```json
 changelogs = [
+    {
+        "date": "2026-02-26",
+        "changes": [
+            "New: Platform Mihentai [Complete Endpoint]",
+            "New: Platform Natsu [Complete Endpoint]",
+            "New: Platform Sasangeyou [Complete Endpoint]",
+            "Add: Reverse Proxy Image for Mihentai, Natsu, Sasangeyou"
+        ]
+    },
     {
         "date": "2026-02-22",
         "changes": [
