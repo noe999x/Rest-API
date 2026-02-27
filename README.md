@@ -46,7 +46,8 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | DonghuaFilm | 🟢 | /donghuafilm | 25 | Donghua |
 | MiHentai | 🟢 | /mihentai | 13 | Baca Kitab Suci |
 | Natsu | 🟢 | /natsu | 28 | Comic |
-| Sasangeyou | 🟢 | /sasangeyou | 29 | Baca Kitab Suci|
+| Sasangeyou | 🟢 | /sasangeyou | 29 | Baca Kitab Suci |
+| Mangaball | 🟢 | /mangaball | 17 | Comic |
 
 ---
 
@@ -93,6 +94,16 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 
 ```json
 changelogs = [
+    {
+        "date": "2026-02-27",
+        "changes": [
+            "New: Platform Mangaball [Complete Endpoint]",
+            "Add: Mangaball Image Proxy (CDN)",
+            "Fix: /tags-detail stats values (stats.title key)",
+            "Fix: /detail/:slug genres field (id_chapter → id_tags)",
+            "Fix: /detail/:slug chapters field normalization (lowercase keys, remove code/message)"
+        ]
+    },
     {
         "date": "2026-02-26",
         "changes": [
