@@ -47,7 +47,7 @@ Project ini adalah **Rest-like API / Wrapper API** yang melakukan scraping data 
 | MiHentai | 🟢 | /mihentai | 13 | Baca Kitab Suci |
 | Natsu | 🟢 | /natsu | 28 | Comic |
 | Sasangeyou | 🟢 | /sasangeyou | 29 | Baca Kitab Suci |
-| Mangaball | 🟢 | /mangaball | 17 | Comic |
+| Mangaball | 🟢 | /mangaball | 28 | Comic |
 
 ---
 
@@ -94,6 +94,19 @@ Project ini dibuat untuk **tujuan edukasi** dan pembelajaran tentang web scrapin
 
 ```json
 changelogs = [
+    {
+        "date": "2026-02-28",
+        "changes": [
+            "New: Mangaball [/filters] Full advanced search endpoint (sort, page, limit, tags include/exclude, demographic, person, language, status, translated language)",
+            "New: Mangaball [/person-search] Search persons/authors by name (id_person, name)",
+            "New: Mangaball [/comics, /manhwa, /manhua, /manga] Language shortcut endpoints (en/kr/zh/jp)",
+            "New: Mangaball [/ongoing, /completed, /on-hold, /cancelled, /hiatus] Publication status shortcut endpoints",
+            "Add: Mangaball [/search, /latest, /added, /new-chap, /popular, /foryou, /recent, /recommendation] limit & page params",
+            "Add: Mangaball Pagination metadata passthrough (total, current_page, last_page, from, to)",
+            "Fix: Mangaball Image Proxy — preserve CDN hostname in proxy path for exact URL reconstruction",
+            "Fix: Mangaball [/read] — all chapter images now proxied via image proxy endpoint"
+        ]
+    },
     {
         "date": "2026-02-27",
         "changes": [
